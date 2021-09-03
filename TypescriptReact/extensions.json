@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "stylelint.vscode-stylelint",
+    "esbenp.prettier-vscode",
+    "vscodevim.vim",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "pkief.material-icon-theme",
+    "oderwat.indent-rainbow",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "eamodio.gitlens",
+    "shan.code-settings-sync",
+    "coenraads.bracket-pair-colorizer",
+    "visualstudioexptteam.vscodeintellicode"
+  ]
+}
