@@ -1,0 +1,163 @@
+{
+  // ---editor---
+  // "editor.formatOnSave": true,
+  // "editor.defaultFormatter": "esbenp.prettier-vscode", // set default formatter
+  "editor.fontSize": 18,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace,\"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+  "editor.formatOnPaste": true,
+  "editor.minimap.enabled": false,
+  "editor.suggest.showSnippets": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false, // cho phép quick suggestion trong snippet
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "solid",
+  "editor.lightbulb.enabled": true,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 120,
+  "editor.letterSpacing": 0.5,
+  "editor.suggest.preview": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.autoClosingDelete": "always",
+  "editor.suggest.showStatusBar": true,
+  "editor.suggestSelection": "first",
+  "editor.guides.bracketPairs": true,
+  // ---window---
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": -2,
+  // ---files---
+  "files.autoSave": "onFocusChange",
+  "files.autoSaveDelay": 3000,
+  "files.associations": {
+    "*.code-snippets": "json",
+    "*.dart": "dart"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "node_modules/": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  // ---explorer---
+  "explorer.openEditors.visible": 0,
+  "explorer.compactFolders": false,
+  // ---breadcrumbs---
+  "breadcrumbs.enabled": false,
+  // ---zen mode---
+  "zenMode.hideLineNumbers": false,
+  // ---workbench---
+  // ---theme---
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#303030"
+  },
+  "workbench.activityBar.visible": true,
+  "workbench.editor.showTabs": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.limit.value": 1,
+  "workbench.startupEditor": "none",
+  // ---extensions---
+  // ---vim---
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.replaceWithRegister": true,
+  "vim.camelCaseMotion.enable": true,
+  "vim.changeWordIncludesWhitespace": true,
+  "vim.useSystemClipboard": true,
+  "vim.smartRelativeLine": true,
+  "vim.highlightedyank.enable": true,
+  "vim.mouseSelectionGoesIntoVisualMode": false,
+  "vim.foldfix": true,
+  "vim.statusBarColorControl": false,
+  "vim.hlsearch": true,
+  "vim.handleKeys": {
+    "<C-c>": false,
+    "<C-b>": false,
+    "<C-f>": false,
+    "<C-y>": false
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "<C-l>"
+      ],
+      "after": [
+        "<right>"
+      ]
+    }
+  ],
+  // ---turbo Console Log---
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "turboConsoleLog.quote": "'",
+  // ---highlight matching tag---
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "full": {
+        "highlight": "#303030"
+      }
+    },
+    "closing": {
+      "full": {
+        "highlight": "#303030"
+      }
+    }
+  },
+  // ---intellicode---
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // ---prettier---
+  "prettier.requireConfig": true, // bắt buộc phải có file prettierrc
+  // ---stylelint---
+  "stylelint.enable": true,
+  "css.validate": false,
+  "scss.validate": false,
+  // ---eslint---
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  // ---emmet---
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  //---language---
+  //---javascript---
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  //---html---
+  "html.autoClosingTags": false,
+  // // typescript
+  // "js/ts.implicitProjectConfig.strictNullChecks": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  //---csharp---
+  "csharp.semanticHighlighting.enabled": true,
+  "omnisharp.organizeImportsOnFormat": true,
+  //---formatter---
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/home/otis/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
+  "java.trace.server": "verbose",
+  "security.workspace.trust.untrustedFiles": "open"
+}
